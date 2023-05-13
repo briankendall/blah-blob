@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000000 /* OSGLUCCO.m in Sources */ = {isa = PBXBuildFile; fileRef = 000700000000000000000000 /* OSGLUCCO.m */; };
+		000000010000000000000000 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700010000000000000000 /* GLOBGLUE.c */; };
+		000000020000000000000000 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700020000000000000000 /* M68KITAB.c */; };
+		000000030000000000000000 /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700030000000000000000 /* MINEM68K.c */; };
+		000000040000000000000000 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700040000000000000000 /* VIAEMDEV.c */; };
+		000000050000000000000000 /* VIA2EMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700050000000000000000 /* VIA2EMDV.c */; };
+		000000060000000000000000 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700060000000000000000 /* IWMEMDEV.c */; };
+		000000070000000000000000 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700070000000000000000 /* SCCEMDEV.c */; };
+		000000080000000000000000 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700080000000000000000 /* RTCEMDEV.c */; };
+		000000090000000000000000 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700090000000000000000 /* ROMEMDEV.c */; };
+		0000000A0000000000000000 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000A0000000000000000 /* SCSIEMDV.c */; };
+		0000000B0000000000000000 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000B0000000000000000 /* SONYEMDV.c */; };
+		0000000C0000000000000000 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000C0000000000000000 /* SCRNEMDV.c */; };
+		0000000D0000000000000000 /* VIDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000D0000000000000000 /* VIDEMDEV.c */; };
+		0000000E0000000000000000 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000E0000000000000000 /* MOUSEMDV.c */; };
+		0000000F0000000000000000 /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000F0000000000000000 /* ADBEMDEV.c */; };
+		000000100000000000000000 /* ASCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700100000000000000000 /* ASCEMDEV.c */; };
+		000000110000000000000000 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700110000000000000000 /* PROGMAIN.c */; };
+		000200000000000000000000 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00000000000000000000 /* AppKit.framework */; };
+		000200010000000000000000 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00010000000000000000 /* AudioUnit.framework */; };
+		000200020000000000000000 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00020000000000000000 /* OpenGL.framework */; };
+		000500000000000000000000 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001F00000000000000000000 /* dummy.txt */; };
+		77B18D022A0FDB0100C4FAC8 /* BlahBlob.dsk in Resources */ = {isa = PBXBuildFile; fileRef = 77B18D012A0FDAFE00C4FAC8 /* BlahBlob.dsk */; };
+		77B18D032A0FDB0300C4FAC8 /* BlahBlobData.dsk in Resources */ = {isa = PBXBuildFile; fileRef = 77B18D002A0FDAFE00C4FAC8 /* BlahBlobData.dsk */; };
+		77B18D052A0FDE4A00C4FAC8 /* MacII.ROM in Resources */ = {isa = PBXBuildFile; fileRef = 77B18D042A0FDE4A00C4FAC8 /* MacII.ROM */; };
+		77C4A8CD2A0EB8F2000A8A1E /* blahblob.icns in Resources */ = {isa = PBXBuildFile; fileRef = 77C4A8CC2A0EB8F2000A8A1E /* blahblob.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000700000000000000000000 /* OSGLUCCO.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = OSGLUCCO.m; path = src/OSGLUCCO.m; sourceTree = "<group>"; };
+		000700010000000000000000 /* GLOBGLUE.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = GLOBGLUE.c; path = src/GLOBGLUE.c; sourceTree = "<group>"; };
+		000700020000000000000000 /* M68KITAB.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = M68KITAB.c; path = src/M68KITAB.c; sourceTree = "<group>"; };
+		000700030000000000000000 /* MINEM68K.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MINEM68K.c; path = src/MINEM68K.c; sourceTree = "<group>"; };
+		000700040000000000000000 /* VIAEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = VIAEMDEV.c; path = src/VIAEMDEV.c; sourceTree = "<group>"; };
+		000700050000000000000000 /* VIA2EMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = VIA2EMDV.c; path = src/VIA2EMDV.c; sourceTree = "<group>"; };
+		000700060000000000000000 /* IWMEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = IWMEMDEV.c; path = src/IWMEMDEV.c; sourceTree = "<group>"; };
+		000700070000000000000000 /* SCCEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCCEMDEV.c; path = src/SCCEMDEV.c; sourceTree = "<group>"; };
+		000700080000000000000000 /* RTCEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = RTCEMDEV.c; path = src/RTCEMDEV.c; sourceTree = "<group>"; };
+		000700090000000000000000 /* ROMEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ROMEMDEV.c; path = src/ROMEMDEV.c; sourceTree = "<group>"; };
+		0007000A0000000000000000 /* SCSIEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCSIEMDV.c; path = src/SCSIEMDV.c; sourceTree = "<group>"; };
+		0007000B0000000000000000 /* SONYEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SONYEMDV.c; path = src/SONYEMDV.c; sourceTree = "<group>"; };
+		0007000C0000000000000000 /* SCRNEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCRNEMDV.c; path = src/SCRNEMDV.c; sourceTree = "<group>"; };
+		0007000D0000000000000000 /* VIDEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = VIDEMDEV.c; path = src/VIDEMDEV.c; sourceTree = "<group>"; };
+		0007000E0000000000000000 /* MOUSEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MOUSEMDV.c; path = src/MOUSEMDV.c; sourceTree = "<group>"; };
+		0007000F0000000000000000 /* ADBEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ADBEMDEV.c; path = src/ADBEMDEV.c; sourceTree = "<group>"; };
+		000700100000000000000000 /* ASCEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ASCEMDEV.c; path = src/ASCEMDEV.c; sourceTree = "<group>"; };
+		000700110000000000000000 /* PROGMAIN.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = PROGMAIN.c; path = src/PROGMAIN.c; sourceTree = "<group>"; };
+		000800010000000000000000 /* GLOBGLUE.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GLOBGLUE.h; path = src/GLOBGLUE.h; sourceTree = "<group>"; };
+		000800020000000000000000 /* M68KITAB.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = M68KITAB.h; path = src/M68KITAB.h; sourceTree = "<group>"; };
+		000800030000000000000000 /* MINEM68K.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MINEM68K.h; path = src/MINEM68K.h; sourceTree = "<group>"; };
+		000800040000000000000000 /* VIAEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VIAEMDEV.h; path = src/VIAEMDEV.h; sourceTree = "<group>"; };
+		000800050000000000000000 /* VIA2EMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VIA2EMDV.h; path = src/VIA2EMDV.h; sourceTree = "<group>"; };
+		000800060000000000000000 /* IWMEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IWMEMDEV.h; path = src/IWMEMDEV.h; sourceTree = "<group>"; };
+		000800070000000000000000 /* SCCEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCCEMDEV.h; path = src/SCCEMDEV.h; sourceTree = "<group>"; };
+		000800080000000000000000 /* RTCEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RTCEMDEV.h; path = src/RTCEMDEV.h; sourceTree = "<group>"; };
+		000800090000000000000000 /* ROMEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ROMEMDEV.h; path = src/ROMEMDEV.h; sourceTree = "<group>"; };
+		0008000A0000000000000000 /* SCSIEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCSIEMDV.h; path = src/SCSIEMDV.h; sourceTree = "<group>"; };
+		0008000B0000000000000000 /* SONYEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SONYEMDV.h; path = src/SONYEMDV.h; sourceTree = "<group>"; };
+		0008000C0000000000000000 /* SCRNEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCRNEMDV.h; path = src/SCRNEMDV.h; sourceTree = "<group>"; };
+		0008000D0000000000000000 /* VIDEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VIDEMDEV.h; path = src/VIDEMDEV.h; sourceTree = "<group>"; };
+		0008000E0000000000000000 /* MOUSEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MOUSEMDV.h; path = src/MOUSEMDV.h; sourceTree = "<group>"; };
+		0008000F0000000000000000 /* ADBEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ADBEMDEV.h; path = src/ADBEMDEV.h; sourceTree = "<group>"; };
+		000800100000000000000000 /* ASCEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ASCEMDEV.h; path = src/ASCEMDEV.h; sourceTree = "<group>"; };
+		000800110000000000000000 /* PROGMAIN.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PROGMAIN.h; path = src/PROGMAIN.h; sourceTree = "<group>"; };
+		000900000000000000000000 /* CNFUIOSG.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUIOSG.h; path = Config/CNFUIOSG.h; sourceTree = SOURCE_ROOT; };
+		000900010000000000000000 /* CNFUIALL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUIALL.h; path = Config/CNFUIALL.h; sourceTree = SOURCE_ROOT; };
+		000900020000000000000000 /* DFCNFCMP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DFCNFCMP.h; path = src/DFCNFCMP.h; sourceTree = "<group>"; };
+		000900030000000000000000 /* ENDIANAC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ENDIANAC.h; path = src/ENDIANAC.h; sourceTree = "<group>"; };
+		000900040000000000000000 /* CNFUDOSG.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUDOSG.h; path = Config/CNFUDOSG.h; sourceTree = SOURCE_ROOT; };
+		000900050000000000000000 /* CNFUDALL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUDALL.h; path = Config/CNFUDALL.h; sourceTree = SOURCE_ROOT; };
+		000900060000000000000000 /* OSGLUAAA.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OSGLUAAA.h; path = src/OSGLUAAA.h; sourceTree = "<group>"; };
+		000900070000000000000000 /* STRCNENG.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = STRCNENG.h; path = src/STRCNENG.h; sourceTree = "<group>"; };
+		000900080000000000000000 /* STRCONST.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = STRCONST.h; path = Config/STRCONST.h; sourceTree = SOURCE_ROOT; };
+		000900090000000000000000 /* OSGCOMUI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OSGCOMUI.h; path = src/OSGCOMUI.h; sourceTree = "<group>"; };
+		0009000A0000000000000000 /* OSGCOMUD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OSGCOMUD.h; path = src/OSGCOMUD.h; sourceTree = "<group>"; };
+		0009000B0000000000000000 /* INTLCHAR.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = INTLCHAR.h; path = src/INTLCHAR.h; sourceTree = "<group>"; };
+		0009000C0000000000000000 /* COMOSGLU.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = COMOSGLU.h; path = src/COMOSGLU.h; sourceTree = "<group>"; };
+		0009000D0000000000000000 /* CONTROLM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CONTROLM.h; path = src/CONTROLM.h; sourceTree = "<group>"; };
+		0009000E0000000000000000 /* SCRNMAPR.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCRNMAPR.h; path = src/SCRNMAPR.h; sourceTree = "<group>"; };
+		0009000F0000000000000000 /* DATE2SEC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DATE2SEC.h; path = src/DATE2SEC.h; sourceTree = "<group>"; };
+		000900100000000000000000 /* CNFUIPIC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUIPIC.h; path = Config/CNFUIPIC.h; sourceTree = SOURCE_ROOT; };
+		000900110000000000000000 /* CNFUDPIC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFUDPIC.h; path = Config/CNFUDPIC.h; sourceTree = SOURCE_ROOT; };
+		000900120000000000000000 /* PICOMMON.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PICOMMON.h; path = src/PICOMMON.h; sourceTree = "<group>"; };
+		000900130000000000000000 /* FPMATHEM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPMATHEM.h; path = src/FPMATHEM.h; sourceTree = "<group>"; };
+		000900140000000000000000 /* FPCPEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPCPEMDV.h; path = src/FPCPEMDV.h; sourceTree = "<group>"; };
+		000900150000000000000000 /* ADBSHARE.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ADBSHARE.h; path = src/ADBSHARE.h; sourceTree = "<group>"; };
+		000B00000000000000000000 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		000B00010000000000000000 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		000B00020000000000000000 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		000D00000000000000000000 /* Blah Blob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blah Blob.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000E00000000000000000000 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../blah-blob-resources/Info.plist"; sourceTree = SOURCE_ROOT; };
+		001000000000000000000000 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = cfg/English.lproj/dummy.txt; sourceTree = SOURCE_ROOT; };
+		77B18D002A0FDAFE00C4FAC8 /* BlahBlobData.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = BlahBlobData.dsk; path = "../blah-blob-resources/BlahBlobData.dsk"; sourceTree = "<group>"; };
+		77B18D012A0FDAFE00C4FAC8 /* BlahBlob.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = BlahBlob.dsk; path = "../blah-blob-resources/BlahBlob.dsk"; sourceTree = "<group>"; };
+		77B18D042A0FDE4A00C4FAC8 /* MacII.ROM */ = {isa = PBXFileReference; lastKnownFileType = file; name = MacII.ROM; path = "../blah-blob-resources/MacII.ROM"; sourceTree = "<group>"; };
+		77B18D062A10183B00C4FAC8 /* Blah Blob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Blah Blob.entitlements"; sourceTree = "<group>"; };
+		77C4A8CC2A0EB8F2000A8A1E /* blahblob.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = blahblob.icns; path = "../blah-blob-resources/blahblob.icns"; sourceTree = SOURCE_ROOT; };
+		77DCCBBC2A153CFD00A48767 /* AppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppVersion.h; path = "blah-blob-resources/AppVersion.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001100000000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000200000000000000000000 /* AppKit.framework in Frameworks */,
+				000200010000000000000000 /* AudioUnit.framework in Frameworks */,
+				000200020000000000000000 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001200000000000000000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				000700000000000000000000 /* OSGLUCCO.m */,
+				000700010000000000000000 /* GLOBGLUE.c */,
+				000700020000000000000000 /* M68KITAB.c */,
+				000700030000000000000000 /* MINEM68K.c */,
+				000700040000000000000000 /* VIAEMDEV.c */,
+				000700050000000000000000 /* VIA2EMDV.c */,
+				000700060000000000000000 /* IWMEMDEV.c */,
+				000700070000000000000000 /* SCCEMDEV.c */,
+				000700080000000000000000 /* RTCEMDEV.c */,
+				000700090000000000000000 /* ROMEMDEV.c */,
+				0007000A0000000000000000 /* SCSIEMDV.c */,
+				0007000B0000000000000000 /* SONYEMDV.c */,
+				0007000C0000000000000000 /* SCRNEMDV.c */,
+				0007000D0000000000000000 /* VIDEMDEV.c */,
+				0007000E0000000000000000 /* MOUSEMDV.c */,
+				0007000F0000000000000000 /* ADBEMDEV.c */,
+				000700100000000000000000 /* ASCEMDEV.c */,
+				000700110000000000000000 /* PROGMAIN.c */,
+			);
+			name = Sources;
+			path = ..;
+			sourceTree = SOURCE_ROOT;
+		};
+		001300000000000000000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77B18D042A0FDE4A00C4FAC8 /* MacII.ROM */,
+				77B18D012A0FDAFE00C4FAC8 /* BlahBlob.dsk */,
+				77B18D002A0FDAFE00C4FAC8 /* BlahBlobData.dsk */,
+				77C4A8CC2A0EB8F2000A8A1E /* blahblob.icns */,
+				000E00000000000000000000 /* Info.plist */,
+				001F00000000000000000000 /* dummy.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		001400000000000000000000 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				000B00000000000000000000 /* AppKit.framework */,
+				000B00010000000000000000 /* AudioUnit.framework */,
+				000B00020000000000000000 /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		001500000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000D00000000000000000000 /* Blah Blob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001600000000000000000000 /* BlahBlob */ = {
+			isa = PBXGroup;
+			children = (
+				77B18D062A10183B00C4FAC8 /* Blah Blob.entitlements */,
+				001200000000000000000000 /* Sources */,
+				001700000000000000000000 /* Headers */,
+				001800000000000000000000 /* Includes */,
+				77B18CFF2A0FD4FC00C4FAC8 /* Config */,
+				001300000000000000000000 /* Resources */,
+				001400000000000000000000 /* External Frameworks and Libraries */,
+				001500000000000000000000 /* Products */,
+			);
+			name = BlahBlob;
+			sourceTree = "<group>";
+		};
+		001700000000000000000000 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				77DCCBBC2A153CFD00A48767 /* AppVersion.h */,
+				000800010000000000000000 /* GLOBGLUE.h */,
+				000800020000000000000000 /* M68KITAB.h */,
+				000800030000000000000000 /* MINEM68K.h */,
+				000800040000000000000000 /* VIAEMDEV.h */,
+				000800050000000000000000 /* VIA2EMDV.h */,
+				000800060000000000000000 /* IWMEMDEV.h */,
+				000800070000000000000000 /* SCCEMDEV.h */,
+				000800080000000000000000 /* RTCEMDEV.h */,
+				000800090000000000000000 /* ROMEMDEV.h */,
+				0008000A0000000000000000 /* SCSIEMDV.h */,
+				0008000B0000000000000000 /* SONYEMDV.h */,
+				0008000C0000000000000000 /* SCRNEMDV.h */,
+				0008000D0000000000000000 /* VIDEMDEV.h */,
+				0008000E0000000000000000 /* MOUSEMDV.h */,
+				0008000F0000000000000000 /* ADBEMDEV.h */,
+				000800100000000000000000 /* ASCEMDEV.h */,
+				000800110000000000000000 /* PROGMAIN.h */,
+			);
+			name = Headers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		001800000000000000000000 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				000900020000000000000000 /* DFCNFCMP.h */,
+				000900030000000000000000 /* ENDIANAC.h */,
+				000900060000000000000000 /* OSGLUAAA.h */,
+				000900070000000000000000 /* STRCNENG.h */,
+				000900090000000000000000 /* OSGCOMUI.h */,
+				0009000A0000000000000000 /* OSGCOMUD.h */,
+				0009000B0000000000000000 /* INTLCHAR.h */,
+				0009000C0000000000000000 /* COMOSGLU.h */,
+				0009000D0000000000000000 /* CONTROLM.h */,
+				0009000E0000000000000000 /* SCRNMAPR.h */,
+				0009000F0000000000000000 /* DATE2SEC.h */,
+				000900120000000000000000 /* PICOMMON.h */,
+				000900130000000000000000 /* FPMATHEM.h */,
+				000900140000000000000000 /* FPCPEMDV.h */,
+				000900150000000000000000 /* ADBSHARE.h */,
+			);
+			name = Includes;
+			path = ..;
+			sourceTree = SOURCE_ROOT;
+		};
+		77B18CFF2A0FD4FC00C4FAC8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				000900100000000000000000 /* CNFUIPIC.h */,
+				000900110000000000000000 /* CNFUDPIC.h */,
+				000900080000000000000000 /* STRCONST.h */,
+				000900050000000000000000 /* CNFUDALL.h */,
+				000900000000000000000000 /* CNFUIOSG.h */,
+				000900010000000000000000 /* CNFUIALL.h */,
+				000900040000000000000000 /* CNFUDOSG.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001900000000000000000000 /* BlahBlob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002200000000000000000000 /* Build configuration list for PBXNativeTarget "BlahBlob" */;
+			buildPhases = (
+				001B00000000000000000000 /* Resources */,
+				001E00000000000000000000 /* Sources */,
+				001100000000000000000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlahBlob;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BlahBlob;
+			productReference = 000D00000000000000000000 /* Blah Blob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001A00000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 002300000000000000000000 /* Build configuration list for PBXProject "BlahBlob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 001600000000000000000000 /* BlahBlob */;
+			productRefGroup = 001500000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001900000000000000000000 /* BlahBlob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001B00000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B18D032A0FDB0300C4FAC8 /* BlahBlobData.dsk in Resources */,
+				77B18D052A0FDE4A00C4FAC8 /* MacII.ROM in Resources */,
+				77B18D022A0FDB0100C4FAC8 /* BlahBlob.dsk in Resources */,
+				77C4A8CD2A0EB8F2000A8A1E /* blahblob.icns in Resources */,
+				000500000000000000000000 /* dummy.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001E00000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000030000000000000000 /* MINEM68K.c in Sources */,
+				000000000000000000000000 /* OSGLUCCO.m in Sources */,
+				000000010000000000000000 /* GLOBGLUE.c in Sources */,
+				000000020000000000000000 /* M68KITAB.c in Sources */,
+				000000040000000000000000 /* VIAEMDEV.c in Sources */,
+				000000050000000000000000 /* VIA2EMDV.c in Sources */,
+				000000060000000000000000 /* IWMEMDEV.c in Sources */,
+				000000070000000000000000 /* SCCEMDEV.c in Sources */,
+				000000080000000000000000 /* RTCEMDEV.c in Sources */,
+				000000090000000000000000 /* ROMEMDEV.c in Sources */,
+				0000000A0000000000000000 /* SCSIEMDV.c in Sources */,
+				0000000B0000000000000000 /* SONYEMDV.c in Sources */,
+				0000000C0000000000000000 /* SCRNEMDV.c in Sources */,
+				0000000D0000000000000000 /* VIDEMDEV.c in Sources */,
+				0000000E0000000000000000 /* MOUSEMDV.c in Sources */,
+				0000000F0000000000000000 /* ADBEMDEV.c in Sources */,
+				000000100000000000000000 /* ASCEMDEV.c in Sources */,
+				000000110000000000000000 /* PROGMAIN.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001F00000000000000000000 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001000000000000000000000 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002000000000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = "Blah Blob.entitlements";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "../blah-blob-resources/Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.briankendall.blahblob;
+				PRODUCT_NAME = "Blah Blob";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				STRIPFLAGS = "-u -r";
+				STRIP_INSTALLED_PRODUCT = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/cfg";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wundef",
+					"-Wstrict-prototypes",
+					"-Wno-uninitialized",
+				);
+			};
+			name = Release;
+		};
+		002100000000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002200000000000000000000 /* Build configuration list for PBXNativeTarget "BlahBlob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002000000000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002300000000000000000000 /* Build configuration list for PBXProject "BlahBlob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002100000000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001A00000000000000000000 /* Project object */;
+}

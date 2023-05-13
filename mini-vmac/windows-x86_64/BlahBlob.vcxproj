@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00010000-0000-0000-0000-000000000000}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BlahBlob</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>.\</OutDir>
+    <IntDir>bld\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>cfg;SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>winmm.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>BlahBlob.exe</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\blah-blob-resources\resource.h" />
+    <ClInclude Include="..\src\GLOBGLUE.h" />
+    <ClInclude Include="..\src\M68KITAB.h" />
+    <ClInclude Include="..\src\MINEM68K.h" />
+    <ClInclude Include="..\src\VIAEMDEV.h" />
+    <ClInclude Include="..\src\VIA2EMDV.h" />
+    <ClInclude Include="..\src\IWMEMDEV.h" />
+    <ClInclude Include="..\src\SCCEMDEV.h" />
+    <ClInclude Include="..\src\RTCEMDEV.h" />
+    <ClInclude Include="..\src\ROMEMDEV.h" />
+    <ClInclude Include="..\src\SCSIEMDV.h" />
+    <ClInclude Include="..\src\SONYEMDV.h" />
+    <ClInclude Include="..\src\SCRNEMDV.h" />
+    <ClInclude Include="..\src\VIDEMDEV.h" />
+    <ClInclude Include="..\src\MOUSEMDV.h" />
+    <ClInclude Include="..\src\ADBEMDEV.h" />
+    <ClInclude Include="..\src\ASCEMDEV.h" />
+    <ClInclude Include="..\src\PROGMAIN.h" />
+    <ClInclude Include="cfg\CNFUIOSG.h" />
+    <ClInclude Include="cfg\CNFUIALL.h" />
+    <ClInclude Include="..\src\DFCNFCMP.h" />
+    <ClInclude Include="..\src\ENDIANAC.h" />
+    <ClInclude Include="cfg\CNFUDOSG.h" />
+    <ClInclude Include="cfg\CNFUDALL.h" />
+    <ClInclude Include="..\src\OSGLUAAA.h" />
+    <ClInclude Include="..\src\STRCNENG.h" />
+    <ClInclude Include="cfg\STRCONST.h" />
+    <ClInclude Include="..\src\OSGCOMUI.h" />
+    <ClInclude Include="..\src\OSGCOMUD.h" />
+    <ClInclude Include="..\src\INTLCHAR.h" />
+    <ClInclude Include="..\src\COMOSGLU.h" />
+    <ClInclude Include="..\src\CONTROLM.h" />
+    <ClInclude Include="..\src\PBUFSTDC.h" />
+    <ClInclude Include="..\src\SCRNMAPR.h" />
+    <ClInclude Include="..\src\DATE2SEC.h" />
+    <ClInclude Include="cfg\CNFUIPIC.h" />
+    <ClInclude Include="cfg\CNFUDPIC.h" />
+    <ClInclude Include="..\src\PICOMMON.h" />
+    <ClInclude Include="..\src\FPMATHEM.h" />
+    <ClInclude Include="..\src\FPCPEMDV.h" />
+    <ClInclude Include="..\src\ADBSHARE.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\OSGLUSDL.c" />
+    <ClCompile Include="..\src\GLOBGLUE.c" />
+    <ClCompile Include="..\src\M68KITAB.c" />
+    <ClCompile Include="..\src\MINEM68K.c" />
+    <ClCompile Include="..\src\VIAEMDEV.c" />
+    <ClCompile Include="..\src\VIA2EMDV.c" />
+    <ClCompile Include="..\src\IWMEMDEV.c" />
+    <ClCompile Include="..\src\SCCEMDEV.c" />
+    <ClCompile Include="..\src\RTCEMDEV.c" />
+    <ClCompile Include="..\src\ROMEMDEV.c" />
+    <ClCompile Include="..\src\SCSIEMDV.c" />
+    <ClCompile Include="..\src\SONYEMDV.c" />
+    <ClCompile Include="..\src\SCRNEMDV.c" />
+    <ClCompile Include="..\src\VIDEMDEV.c" />
+    <ClCompile Include="..\src\MOUSEMDV.c" />
+    <ClCompile Include="..\src\ADBEMDEV.c" />
+    <ClCompile Include="..\src\ASCEMDEV.c" />
+    <ClCompile Include="..\src\PROGMAIN.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\blah-blob-resources\blahblob.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\blah-blob-resources\main.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
