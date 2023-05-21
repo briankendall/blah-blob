@@ -8,5 +8,5 @@
 
 pascal void main(XCmdPtr paramPtr)
 {
-	FlushEvents(mDownMask | mUpMask | keyDownMask | keyUpMask | autoKeyMask, 0);
+    FlushEvents(mDownMask | mUpMask | keyDownMask | keyUpMask | autoKeyMask, 0);
 }
